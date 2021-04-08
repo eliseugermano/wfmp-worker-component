@@ -60,7 +60,7 @@ public class PetriNetLoaderService {
 	 *
 	 */
 	public void loadSemanticModel(PetriNetDTO workflow, String authorization) {
-//		taskExecutor.execute(() -> {
+		taskExecutor.execute(() -> {
 			Date date= new Date();
 			Timestamp timestamp = new Timestamp(date.getTime());
 			String queueName = "workflow_"+workflow.getAmqpQueueName()+"_["+timestamp+"]";
@@ -87,7 +87,7 @@ public class PetriNetLoaderService {
 			} catch (InterruptedException e) {
 				log.error(e);
 			}
-//		});
+		});
 	}
 	
 	/**
