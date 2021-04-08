@@ -1,0 +1,14 @@
+{
+  "type":"object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "career": {
+      "type": "string"
+    },
+    "alert": {
+      "type": "boolean"
+    }
+  }
+}

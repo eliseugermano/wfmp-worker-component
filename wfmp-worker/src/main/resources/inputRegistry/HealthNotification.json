@@ -1,0 +1,11 @@
+{
+  "type":"object",
+  "properties": {
+    "evaluated": {
+      "type": "boolean"
+    },
+    "observation": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# WfMP containers
+
+version: '3'
+
+services:
+  worker:
+    build: wfmp-worker
+    networks:
+      - wfmp-network
+    ports: 
+      - 8680
+  loadbalancer:
+    image: dockercloud/haproxy
+    ports:
+      - 8680:80
+    links:
+      - worker
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock

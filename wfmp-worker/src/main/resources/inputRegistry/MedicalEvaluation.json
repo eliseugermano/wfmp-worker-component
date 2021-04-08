@@ -1,0 +1,11 @@
+{
+  "type":"object",
+  "properties": {
+    "bloodPressureProblem": {
+      "type": "boolean"
+    },
+    "pulseProblem": {
+      "type": "boolean"
+    }
+  }
+}

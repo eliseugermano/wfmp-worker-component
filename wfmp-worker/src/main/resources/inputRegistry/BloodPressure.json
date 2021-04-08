@@ -1,0 +1,19 @@
+{
+  "type":"object",
+  "properties": {
+    "systolic": {
+      "type": "integer"
+    },
+    "diastolic": {
+      "type": "integer"
+    },
+    "mean": {
+      "type": "number"
+    },
+    "pulse": {
+      "type": "string"
+    }
+  },
+  "required": ["systolic", "diastolic"],
+  "additionalProperties": false
+}

@@ -1,0 +1,17 @@
+{
+  "type":"object",
+  "properties": {
+    "mean24hoursSystolic": {
+      "type": "number"
+    },
+    "mean24hoursDiastolic": {
+      "type": "number"
+    },
+    "hypertension": {
+      "type": "boolean"
+    },
+    "diagnosis": {
+      "type": "boolean"
+    }
+  }
+}

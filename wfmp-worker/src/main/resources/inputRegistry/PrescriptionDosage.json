@@ -1,0 +1,29 @@
+{
+  "type":"object",
+  "properties": {
+    "sequence": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "formula": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "timing": {
+    	"type": "string"
+    },
+    "rate": {
+    	"type": "string"
+    },
+    "duration": {
+    	"type": "string"
+    },
+    "amount": {
+    	"type": "string"
+    }
+  }
+}

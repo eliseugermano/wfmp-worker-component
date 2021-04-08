@@ -1,0 +1,13 @@
+{
+  "type":"object",
+  "properties": {
+    "information": {
+      "type": "object"
+    },
+    "accessToken": {
+      "type": "string"
+    }
+  },
+  "required": ["accessToken"],
+  "additionalProperties": false
+}
